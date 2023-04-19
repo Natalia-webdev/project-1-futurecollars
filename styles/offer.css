@@ -1,0 +1,45 @@
+.offer-section {
+  background-color: #405d78;
+  padding: 55px 0;
+}
+
+.offer-section h2 {
+  color: #ffffff;
+}
+
+.boxes-container {
+  margin: 70px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 60px;
+  justify-content: center;
+}
+
+.box {
+  width: 198px;
+  height: 195px;
+  background-color: #f1f1f1;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  cursor: pointer;
+  transition: ease 500ms;
+}
+
+.box:hover {
+  transform: scale(1.05);
+}
+
+.dot {
+  background-color: #e07a64;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+}

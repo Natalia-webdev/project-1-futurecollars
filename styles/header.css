@@ -1,0 +1,54 @@
+.header-section {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  color: #ffffff;
+}
+
+.header_background {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.landing-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.header-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header-container h4 {
+  margin-bottom: 40px;
+}
+
+.header-container h1 {
+  margin-bottom: 60px;
+}
+
+.offer-button {
+  width: 160px;
+  padding: 12px 57px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  background: none;
+  border: 3px solid #ffffff;
+  transition: all 1s ease;
+  cursor: pointer;
+}
+
+.offer-button:hover {
+  background-color: #ffffff;
+  color: black;
+}
