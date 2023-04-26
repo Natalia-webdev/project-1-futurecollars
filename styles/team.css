@@ -26,7 +26,7 @@
   direction: rtl;
 }
 
-.expert {
+.team-member {
   display: flex;
   justify-content: space-between;
   gap: 60px;
@@ -39,12 +39,12 @@
   height: 200px;
 }
 
-.expert-info {
+.team-member-info {
   justify-content: center;
   display: flex;
   flex-direction: column;
 }
 
-.expert-info h4 {
+.team-member-info h4 {
   margin-bottom: 20px;
 }
