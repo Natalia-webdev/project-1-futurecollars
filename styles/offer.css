@@ -34,7 +34,7 @@
   transform: scale(1.05);
 }
 
-.dot {
+.new-offer-dot {
   background-color: #e07a64;
   border-radius: 50%;
   width: 20px;
